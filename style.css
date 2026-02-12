@@ -8,18 +8,24 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
-    ;
+
 }
 
 .header {
     display: flex;
     justify-content: center;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.804);
+    color: white;
 
 }
 
+
 .logo {
     margin-right: 250px;
+    font-family: cursive;
+
+
 }
 
 .nav-links {
@@ -31,13 +37,21 @@
 .profile-picture {
     display: flex;
     justify-content: center;
+
 }
 
 .profile-picture img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
 
+}
 
+.main-content {
+    background-color: rgba(8, 6, 3, 0.872);
+    color: white;
 }
 
 .main-section h1 {
@@ -45,8 +59,15 @@
     font-size: 50px;
 }
 
+.short-text {
+    background: linear-gradient(to right, orange, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .main-section p {
     text-align: center;
+    margin-top: 20px;
 }
 
 .buttons {
@@ -54,6 +75,28 @@
     justify-content: center;
     gap: 50px;
     padding: 20px;
+    margin-top: 20px;
+}
+
+.btn-contact {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btn-download {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .experience-icons {
@@ -75,10 +118,15 @@
     padding: 15px;
     gap: 20px;
     font-size: 30px;
+    margin-top: 15px;
 }
 
-.projects-sections h2 {
-    text-align: center;
+
+
+.project-title {
+    display: flex;
+    justify-content: center;
+    color: tomato;
 }
 
 .projects {
@@ -88,16 +136,26 @@
     justify-content: center;
 }
 
+.html-article, .css-article{
+    display: flex;
+    flex-direction: column;
+    
+}
 .card-image img {
     height: 250px;
     width: 300px;
+    ;
 
 }
 
 .card-footer {
     display: flex;
-    margin: 10px;
     margin-top: 2px;
+    color: white;
+    background-color: rgb(59, 58, 58);
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .card-footer i {
@@ -117,25 +175,26 @@
 
 .experience {
     display: flex;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .experience h2 {
     text-align: center;
+    color: blue;
+}
+
+.jobs {
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .job {
     margin-bottom: 25px;
 }
 
-.jobs {
-    margin-top: 10px;
-}
-
 .job-header {
     display: flex;
     margin-bottom: 10px;
-    ;
 
 }
 
@@ -147,10 +206,17 @@
     margin-right: 10px;
 }
 
+.footer{
+     background-color: rgba(0, 0, 0, 0.804);
+     
+}
+
 .footer-content {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   color: white;
 }
 
 .footer-content h2 {
@@ -160,6 +226,11 @@
 
 .footer-content p {
     margin-bottom: 15px;
+    color: gray;
+}
+
+.footer-content a{
+    color: white;
 }
 
 .social-links {
@@ -167,4 +238,5 @@
     flex-direction: row;
     gap: 20px;
     margin-top: 25px;
+    
 }

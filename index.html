@@ -7,10 +7,10 @@
     <title>Currículo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
-        <link rel="stylesheet" href="style.css">
-</head>
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 
+</head>
 <body>
     <header class="header">
         <div class="logo">
@@ -27,26 +27,26 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main-content">
         <section class="main-section">
             <div class="container">
                 <div class="profile-picture">
-                    <img src="avatarr.png" alt="Profile Picture">
+                    <img src="my-picture.jpeg" alt="Profile Picture">
                 </div>
 
-                <h1>I do code and <br>
-                    make content <span> about it!</span></h1>
+                <h1>Building systems <br>
+                    and optimizing <span class="short-text"> infrastructure!</span></h1>
                 <p>
-                    I am a seasoned full-stack software engineer with over 4 years of <br>
-                    professional experience in the industry. I have a strong background <br>
-                    in both front-end and back-end development, and I am passionate about <br>
-                    creating high-quality software solutions. I have a proven track record <br>
-                    of delivering successful projects on time and within budget, and I am <br>
-                    always looking for new challenges to tackle.
+                    Undergraduate student in Computer Engineering with a strong interest in infrastructure,
+                    systems administration, and technical support. Proactive, organized, and a skilled
+                    problem-solver, I have experience gained through academic and online projects where
+                    I developed skills in service management, documentation, and teamwork. I am a fast
+                    learner, highly motivated to work in technology, supporting the monitoring,
+                    maintenance, and continuous improvement of systems.
                 </p>
 
                 <div class="buttons">
-                    <a href="#" class="btn-contact">Get in Touch</a>
+                    <a href="mailto:edilsonchivinge499@gmail.com" class="btn-contact">Get in Touch</a>
                     <a href="#" class="btn-download">Download CV</a>
                 </div>
 
@@ -65,29 +65,31 @@
 
         <section class="projects-sections">
             <div class="container">
-                <h2>PROJECTS</h2>
+                <div class="project-title">
+                    <h2>PROJECTS</h2>
+                </div>
                 <div class="projects">
-                    <article class="html">
+                    <article class="html-article">
                         <div class="card-image">
                             <img src="hero-html.png" alt="HTML Project">
                         </div>
                         <div class="card-footer">
                             <div class="card-content">
-                                <span>CLICK HERE TO VISIT</span>
-                                <h2>HTML TUTORIAL</h2>
+                                <span>JAVA & AWS</span>
+                                <h2>SERVERLESS APP</h2>
                             </div>
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </div>
                     </article>
 
-                    <article class="css">
+                    <article class="css-article">
                         <div class="card-image">
                             <img src="hero-css.png" alt="CSS Project">
                         </div>
                         <div class="card-footer">
                             <div class="card-content">
-                                <span>CLICK HERE TO VISIT</span>
-                                <h2>CSS TUTORIAL</h2>
+                                <span>JAVA & MYSQL</span>
+                                <h2>DISASTER ALERT SYSTEM</h2>
                             </div>
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </div>
@@ -103,43 +105,46 @@
                 <div class="jobs">
                     <article class="job">
                         <div class="job-header">
-                            <div class="jobs-icons"><i class="fa-brands fa-google"></i></div>
+                            <div class="jobs-icons"><i class="fa-brands fa-java"></i></div>
                             <div class="job-title">
-                                <h3>Software Engineer at TechCorp</h3>
+                                <h3>Back-end Developer Trainee at Rocketseat</h3>
                             </div>
-                            <span>Jan 2020 - Present</span>
+                            <span>Feb 2025</span>
                         </div>
                         <p>
-                            Developed and maintained web applications using JavaScript, React, and Node.js.
-                            Collaborated with cross-functional teams to deliver high-quality software solutions.
-                        </p>
-                    </article> 
-
-                    <article class="job">
-                        <div class="job-header">
-                            <div class="jobs-icons"><i class="fa-brands fa-php"></i></div>
-                            <div class="job-title">
-                                <h3>Junior Developer at WebSolutions</h3>
-                            </div>
-                            <span>Jun 2018 - Dec 2019</span>
-                        </div>
-                        <p>
-                            Assisted in the development of client websites using HTML, CSS, and PHP.
-                            Participated in code reviews and contributed to team knowledge sharing.
+                            Developed a back-end application in Java with Maven using Spring Boot and API Rest.
+                            Structured the project from data modeling to functionality implementation, 
+                            integrating with MySQL via JPA and JDBC.
                         </p>
                     </article>
 
                     <article class="job">
                         <div class="job-header">
-                            <div class="jobs-icons"><i class="fa-brands fa-meta"></i> </div>
+                            <div class="jobs-icons"><i class="fa-brands fa-aws"></i></div>
                             <div class="job-title">
-                                <h3>Intern at CodeFactory</h3>
+                                <h3>Java Serverless Developer at Rocketseat</h3>
                             </div>
-                            <span>Jan 2018 - May 2018</span>
+                            <span>Nov 2024</span>
                         </div>
                         <p>
-                            Gained hands-on experience in software development through an internship program.
-                            Worked on small projects and learned best practices in coding and teamwork.
+                            Developed a serverless URL redirection application using Java. 
+                            Integrated with AWS S3 for bucket management, API Gateway for endpoint exposure, 
+                            and AWS Lambda for serverless processing.
+                        </p>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-header">
+                            <div class="jobs-icons"><i class="fa-brands fa-envira"></i> </div>
+                            <div class="job-title">
+                                <h3>Developer at Project Khodar</h3>
+                            </div>
+                            <span>Sep 2024 - Oct 2024</span>
+                        </div>
+                        <p>
+                            Participated in the development of a natural disaster alert system. 
+                            Created RESTful APIs using Java and MySQL, managed notifications, 
+                            and handled technical documentation.
                         </p>
                     </article>
                 </div>
@@ -147,22 +152,20 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container footer-content">
             <h2>Contact</h2>
             <p>
-                Full seasoned software engineer with over 4 years of experience in the industry.
-                I have a strong background in both front-end and back-end development,
-                and I am passionate about creating high-quality software solutions.
-                I have a proven track record of delivering successful projects on time
-                and within budget, and I am always looking for new challenges to tackle.
+                Computer Engineering student focused on Web Development, Systems Administration, 
+                and Technical Support. Skilled in Java, Spring Boot, and AWS, I am proactive 
+                and eager to contribute to system monitoring and infrastructure optimization.
             </p>
             <a href="mailto:edilsonchivinge499@gmail.com">
                 <i class="fa-regular fa-envelope"></i>edilsonchivinge499@gmail.com
             </a>
 
             <div class="social-links">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://linkedin.com/in/edilson-chivinge"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-brands fa-github"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
             </div>
